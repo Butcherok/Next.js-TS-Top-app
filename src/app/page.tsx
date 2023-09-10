@@ -1,10 +1,11 @@
-import { TheFooter, TheHeader } from '@/components';
+import { Htag, TheFooter, TheHeader } from '@/components';
+
 export default function Home() {
   return (
     <main>
       <TheHeader />
-      <h1>Main page</h1>
-      <TheFooter/>
+      <Htag tag="h1">text Htag</Htag>
+      <TheFooter />
     </main>
   );
 }
